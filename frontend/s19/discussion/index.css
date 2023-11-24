@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#logo{
+	color: #003363;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 24px;
+}
+
+nav ul a{
+	color: #004E84 !important;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+
+}
+
+#title{
+	color: var(--gs-brand-white, #FFF);
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 68px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 84px
+}
+
+
+#base{
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 24px; /* 150% */
+
+	border-radius: 2px;
+	background: #12C6FF;
+	padding: 8px 24px;
+}
+
+#landing{
+	background:
+		linear-gradient(rgba(0, 34, 65, 0.61),rgba(0, 34, 65, 0.61)),
+		url("./images/banner.png")
+		;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about{
+	background: #003363;
+}
+
+#about h4{
+	color: #12C6FF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px; /* 133.333% */
+}
+
+#about p{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 150% */
+}
+
+/* contact */
+#contact-image{
+	background:
+		linear-gradient(rgba(0, 34, 65, 0.61),rgba(0, 34, 65, 0.61)),
+		url("./images/building.png")
+		;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* child selector */
+#contact-image > h4{
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 100% */
+}
+
+#contact h2{
+	color: #12C6FF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px; /* 100% */
+}
+
+#contact p{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+#right-side{
+	background: #003363;
+}
+
+#contact label{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#contact button{
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 24px; /* 150% */
+
+	border-radius: 2px;
+	background: #12C6FF;
+	padding: 8px 24px;
+}

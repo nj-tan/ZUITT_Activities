@@ -1,0 +1,143 @@
+/* CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Experiment in changing root element default font-size */
+html{
+/*	font-size: 60px;*/
+}
+
+#div-1{
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+#div-2{
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+
+/* span is by default display:inline */
+#span-1{
+	background-color: grey;
+	border: 2px solid black;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	/* Modifying the width or height of display:inline elements will not work.	*/
+}
+
+#span-2{
+	background-color: grey;
+	border: 2px solid black;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+#div-3, #div-4{
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+#span-3, #span-4{
+	background-color: grey;
+	border: 2px solid black;
+}
+
+#span-5{
+	display: none;
+}
+
+
+/* CSS units */
+.box{
+	background-color:red;
+	border: 1px solid black;
+	margin: 5px;
+	width: 100px;
+}
+
+/* % - relative to the parent size */
+.fifty-percent{
+	width: 50%;
+}
+
+.one-hundred-pixels{
+	width: 100px;
+}
+
+/* vw - relative to the width of the viewport / device (means the whole width of your device / browser) */
+.fifty-vw{
+	width: 50vw;
+}
+
+/* vw - relative to the height of the viewport / device (means the whole height of your device / browser) */
+.twenty-five-vh{
+	height: 25vh;
+}
+
+.parent{
+	width: 135px;
+	border: 2px solid navy;
+	font-size: 30px;
+}
+
+/* CSS Units in fonts */
+/* rem unit is relative to the size of the root element <html></html>, which is by default 16px, 1rem is equivalent to default font size (16px) */
+.one-rem{
+	font-size: 1rem;
+}
+
+/* em unit is relative to the size of the parent element, since the parent is 30px, 1em will be equivalent to 30px */
+.one-em{
+	font-size: 1em;
+}
+
+.two-rem{
+	font-size: 2rem;
+}
+
+.two-em{
+	font-size: 2em;
+}
+
+/* % and em both follows the font-size of the parent, 100% size is equivalent to the size of the parent (in our case 30px). Making it 200% doubles the size of the inherited size from the parent (in our case 30px, whend doubled is 60px) */
+.two-hundred-percent{
+	font-size: 200%;
+}
+
+/* CSS Background Properties */
+.background{
+	min-height: 100vh;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* This sets the position of the background image. It places the image in the center horizontally ('center') and at top vertically ('top') of the element */ 
+	background-position: center top;
+	background-attachment: scroll;
+}
+
+
+.bg-title{
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	line-height: 35rem;
+}
+
+.container-bg{
+	/*rgba - red, green, blue, alpha */
+	background-color: rgba( 255,255,255,0.5 );
+	min-height: 100vh;
+}

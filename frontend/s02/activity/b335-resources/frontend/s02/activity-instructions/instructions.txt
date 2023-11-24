@@ -1,0 +1,34 @@
+Activity:
+
+1. Inside the frontend folder, create an s02 folder.
+
+2. Peek at the states of the files/folders using git status.
+
+3. Stage the files in preparation for creating a commit using git add.
+
+4. Create a commit/version using git commit.
+
+5. Check the commit history using git log/git log --oneline.
+
+6. Add a paragraph that describes your motivation in joining the bootcamp.
+
+7. Check the status of the files/folders, stage the files and create a commit. Repeat steps 
+
+8. Add a paragraph that briefly narrates your work experience.
+
+9. Check the status of the files/folders, stage the files and create a commit again.
+
+10. Upload your changes to the GitLab project by doing git push origin master.
+
+11. Add the link/url of the GitLab Remote Repository in Boodle.
+
+
+Stretch Goal:
+
+1. Clone a repository that will be provided by your instructor inside the activity folder.
+
+2. Delete the .git folder inside of the cloned repository.
+
+3. Pull the changes from the remote repository on the cloned project.
+
+4. Upload your changes again to the frontend online repository by doing doing git add, commit and git push origin master.

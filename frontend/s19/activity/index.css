@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+    background-color: #765C3D !important;
+
+}
+
+.navbar .nav-link {
+    color: #F2D2AE !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF !important;
+}
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.59)),
+    url("./images/landing.png")
+    ;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#base{
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 24px; /* 150% */
+    text-decoration: none;
+
+	border-radius: 2rem;
+	background: #765C3D;
+	padding: 8px 24px;
+}
+
+#gallery {
+    color: #765C3D;
+}
+
+#album1, #album2, #album3 {
+    color: #765C3D;
+    background: #FFF;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+#carousel1 {
+    background: #FFF;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+#contact-image{
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)),
+		url("./images/contact-bg.png")
+		;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact {
+    background-color: #FFF2E4;
+}
+
+#right-side {
+    color: #765C3D;
+}
+
+#exampleFormControlInput1 {
+    color: #765C3D !important;
+}
+
+#contact-button {
+    border-radius: 999px;
+    background: #B59066;
+}
+
+footer {
+    background-color: #B59066;
+    color: #FFF2E4;
+}

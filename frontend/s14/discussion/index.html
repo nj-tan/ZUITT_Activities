@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Flex</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid text-center">
+        
+        <h1>Bootstrap Flex</h1>
+        <p>Use the d-Flex class to create a flex container and transform direct children into flex items.</p>
+
+        <h2>Flex Column</h2>
+        <!-- flex-column aligns the contents into one column -->
+        <div style="height: 500px" class="bg-secondary p-3 d-flex flex-column">
+            <div class="h-25 p-3 bg-success">Flex Item A</div>
+            <div class="h-25 p-3 bg-warning">Flex Item B</div>
+            <div class="h-25 p-3 bg-danger">Flex Item C</div>
+        </div>
+
+
+        <h2>Flex Column - Centered</h2>
+        <!-- When you combine justify-content-center and align-items-center in a flex container, it effectively centers a child element. Both horizontally and vertically within the container -->
+        <!-- Combination of flex-column and align-items-center result: when items are centered vertically, the flex container automatically adjusts the width of the children based on the widest child to ensure centering and only consumes the right size -->
+        <div style="height: 500px" class="bg-secondary p-3 d-flex flex-column justify-content-center align-items-center">
+            <div class="h-25 p-3 bg-success">Flex Item A</div>
+            <div class="h-25 p-3 bg-warning">Flex Item B</div>
+            <div class="h-25 p-3 bg-danger">Flex Item C</div>
+        </div>
+        
+        <h2>Flex Row</h2>
+        <!-- justify-content-center centers items vertically for flex-direction:column, and horizontally for flex-direction:row -->
+        <!-- align-items-center centers items horizontally for flex-direction:row and vertically for flex-direction:column -->
+        <div class="bg-secondary p-3 d-flex flex-row justify-content-center">
+            <div class="p-3 bg-success">Flex Item A</div>
+            <div class="p-3 bg-warning">Flex Item B</div>
+            <div class="p-3 bg-danger">Flex Item C</div>
+        </div>
+        
+        <h2>Flex Row - Equal Spacing for each child</h2>
+        
+        <div class="bg-secondary p-3 d-flex flex-row justify-content-around">
+            <div class="p-3 bg-success">Flex Item A</div>
+            <div class="p-3 bg-warning">Flex Item B</div>
+            <div class="p-3 bg-danger">Flex Item C</div>
+        </div>
+        
+        <h2>Flex Row - Reverse</h2>
+        <!-- flex-row-reverse reverses the order of the children and aligns to the opposite direction -->
+        <div class="bg-secondary p-3 d-flex flex-row flex-row-reverse">
+            <div class="p-3 bg-success">Flex Item A</div>
+            <div class="p-3 bg-warning">Flex Item B</div>
+            <div class="p-3 bg-danger">Flex Item C</div>
+        </div>
+        <h2>Flex Row - Reverse but only for Medium and Higher</h2>
+        <!-- How to access breakpoints: property-breakpoint-value -->
+        <div class="bg-secondary p-3 d-flex flex-row flex-md-row-reverse">
+            <div class="p-3 bg-success">Flex Item A</div>
+            <div class="p-3 bg-warning">Flex Item B</div>
+            <div class="p-3 bg-danger">Flex Item C</div>
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

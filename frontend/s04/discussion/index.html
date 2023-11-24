@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Attributes and Links</title>
+</head>
+<body>
+		<h2 id="top">HTML Attributes</h2>
+
+	<!-- The align attribute changes the alignment of the paragraph element -->
+	<p align="center">Modifiers of element behaviors.</p>
+
+	<h2>HTML Images</h2>
+
+	<p align="right">
+		<em>
+		    An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.
+		</em>
+	</p>
+
+	<!-- href attribute (hypertext reference) - for path / url -->
+	<a href="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D">	
+		<!-- src (source) - for path / url for pictures -->
+		<img src="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" width="100" />
+	</a>
+
+	<p>
+		<code>
+			&lt; img src="https://img.freepik.com/free-photo/isolated-happy-smiling-dog-white-background-portrait-4_1562-693.jpg" / &gt;
+		</code>
+	</p>
+
+	<!-- Relative link -->
+	<img src="./images/zuitt.JPEG">
+
+	<!-- type = 1 , a , A , i , I -->
+	<ol type="a">
+		<li>png</li>
+		<li>jpg</li>
+		<li>gif</li>
+		<li>svg</li>
+		<li>webp</li>
+	</ol>
+<p>
+	Take a look at w3schools attribute references
+	<!-- target ="_blank" shows the webpage to another tab -->
+	<a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">here</a>
+	<br>
+	And also if you want to know more about hyperlinks, 
+	<a href="https://www.w3schools.com/html/html_links.asp">click here</a>
+</p>
+
+<!-- Including/creating absolute links or Relative Links in hyperlinks (<a> anchor elements) is through href attribute  -->
+		
+	<h4>Absolute Link</h4>
+	<!-- An absolute link includes the full web address (URL), including the protocol. Absolute links are used for webpages that are not part of the file system, such as external websites.-->
+
+	<!-- "target="_blank"" opens the linked webpage in a new tab. Commonly used with absolute links for a seamless user experience. -->
+	<a href="https://zuitt.co" target="_blank">I'm an absolute link</a>
+
+	<h4>Relative Link</h4>
+	<!-- A relative link specifies the path to a webpage relative to the current location. Relative links are used within the same website and are based on the file structure of the local system.  -->
+	<p>Go to <a href="./link.html">link.html</a> page.
+
+	<p>Go to <a href="#top">top</a></p>
+	
+	<!-- Including/creating absolute links or Relative Links in photos is (<img> elements) is through href attribute  -->
+
+	<!-- Absolute link example in <img> element -->
+
+	<img src="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" width="100" />
+
+
+	<!-- Relative link example in <img> element -->
+	<img src="./images/zuitt.JPEG">
+
+
+</body>
+</html>

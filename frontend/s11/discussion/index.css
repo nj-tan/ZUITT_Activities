@@ -1,0 +1,98 @@
+/* CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: solid 2px pink;
+}
+
+/* CSS Float property */
+.img-float{
+	border: 1px solid black;
+	width: 250px;
+	float: inline-end;
+}
+
+/* CSS Position Property and Values */
+.parent-element{
+	background-color: skyblue;
+			/* 50px - padding top and bottom
+			   10px - padding left and right
+			*/	
+	padding: 50px 10px;
+	/* position:relative is relative to its initial position, through using position:relative we could also modify its top, left, right, bottom position away from its initial position	*/
+	position: relative;
+	left: 20px;
+/*	position: static;*/
+	height: 800px;
+	margin-top: 150px;
+}
+
+.child-one{
+	background-color: gray;
+	padding: 10px;
+}
+
+.child-two{
+	background-color: yellow;
+	padding: 10px;
+	width: 100px;
+	/* position:absolute is relative to the nearest ancestor	*/
+/*	position: absolute;*/
+	
+
+	/* position: fixed is relative to the browser window, it means that it will remain in its position even in scrolling	*/
+	position: fixed;
+	
+	/* position:sticky is relative to the normal position and sticks to a specific position once reached.	*/
+	position: sticky;
+	top: 10px;
+	right: 0px;
+/*	bottom: 10px;*/
+}
+
+.child-three{
+	background-color: gray;
+	padding: 10px;
+}
+
+
+.container{
+	position: relative;
+}
+/* Z-Index */
+.blue-box{
+	position: relative;
+	height: 100px;
+	background-color: skyblue;
+	margin: 30px;
+	left: 20px;
+	z-index: 1;
+}
+
+.pink-box{
+	position: absolute;
+	background-color: lightpink;
+	height: 60px;
+	width: 70%;
+	left: 200px;
+	top: -12px;
+	z-index: 3;
+}
+
+.brown-box{
+	position: absolute;
+	background-color: burlywood;
+	width: 35%;
+	height: 100px;
+	left: 270px;
+	top: 40px;
+	z-index: 2;
+}
+
+
+
+
+
+
+

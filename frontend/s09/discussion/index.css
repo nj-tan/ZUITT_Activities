@@ -1,0 +1,108 @@
+/* CSS reset ensures consistent styling across browsers by setting margins and padding to zero. This eliminates default spacing, providing a consistent starting point for styling. Additionally, 'box-sizing: border-box;' ensures accurate sizing by including padding and border in the specified width and height.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid;
+    border-color: pink; */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 0.8rem;
+    /* padding-top: 0.8rem; */
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+    /* background-color: grey; */
+    
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.nav, .nav-logo {
+    margin: 0.5rem;
+    display: inline;
+}
+
+#intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+#intro h2, #intro p {
+    margin-bottom: 1rem;
+}
+
+#intro button {
+    color: white;
+    font-weight: bold;
+    background-color: #c2195b;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+#succeed-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+#succeed-info h2 {
+    margin-bottom: 1rem;
+}
+
+#succeed-info h3 {
+    text-align: center;
+}
+
+#succeed-info .card {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    min-height: 175px;
+}
+
+#prefooter {
+    background-color: #002540;
+    color: white;
+}
+
+ #prefooter div {
+    display: inline-block;
+    width: 20%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+#prefooter > div > p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    /* text-align: center; */
+    padding: 0.7rem;
+}
+
+footer span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

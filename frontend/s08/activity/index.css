@@ -1,0 +1,44 @@
+/*Member 2*/
+* {
+	font-family: "Verdana", sans-serif;
+	font-size: 20px;
+
+}
+#external {
+	color: yellow;
+}
+/*Member 3*/
+h1 {
+	font-size: 3rem;
+}
+
+#sub-header {
+	text-transform: uppercase;
+}
+
+.text-green {
+	background-color: green;
+}
+/*Member 4*/
+li[class="border-blue"] {
+    border: 2px solid blue;
+  }
+
+img + ul {
+	list-style-type: none;
+}
+
+section img {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100px;
+}
+/*Member 5*/
+ul ~ p {
+	text-align: center;
+
+}
+
+section > ul > li {
+	letter-spacing: 10px;
+}

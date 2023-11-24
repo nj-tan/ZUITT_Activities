@@ -1,0 +1,64 @@
+/*universal selector*/
+* {
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+}
+/*tag selector*/
+body {
+	background-color: skyblue;
+}
+
+nav {
+	background-color: white;
+}
+
+div {
+	float: inline-end;
+}
+
+h1 {
+		color:yellow !important;
+		text-align: center;
+		font-size: 3rem;
+}
+
+section {
+/*	background-color: gray;*/
+	height: 100vh;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+}
+/*ID Selector*/
+#zuitt-motto {
+	letter-spacing: 10px;
+}
+/*Class Selector*/
+.modules {
+	letter-spacing: 5px;
+}
+
+/*Adjacent sibling selector (+)*/
+h3 + img {
+	height: 300px;
+	width: 350px;
+	border-radius: 100%;
+}
+
+ol {
+	list-style-type: none;
+
+}
+
+/* Descendant Selector */
+#bootcamp-learning-list li{
+	color: #6E2C00;
+}
+
+/* General Sibling Selector (~)*/
+h2 ~ a {
+	text-decoration: none;
+}
+

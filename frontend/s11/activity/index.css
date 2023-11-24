@@ -1,0 +1,182 @@
+/* Member 1 */
+/* CSS RESET */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', san-serif;
+}
+/* Applied general styling for all buttons in the page */
+button {
+	color: white;
+	padding: 9px;
+	width: 11rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+	border-color: rgba(0, 0, 0, 0.2);
+	border-radius: 25px;
+}
+
+#main > p {
+	margin: 3rem 0;
+}
+
+/* Member 2 */
+
+nav{
+	/*Member 2: Add padding on all sides.	*/
+	padding: 0;
+	/*Member 2: Add position as sticky.	*/
+	position: sticky;
+	/* Member 2: Add top as 0 */
+	top: 0;
+	/* Member 2: Add z-index as 1 */
+	z-index: 1;
+	/* Member 2: Add a white background color.*/
+	background-color: #FFFFFF;
+}
+
+/* Member 2: Move the element with class “right-nav” to the right side. */
+div[class="right-nav"]{
+	/* Member 2: Use the float property to float the element to the right side. */
+	float: right;
+}
+
+/* Member 2: Select all li elements in the nav: */
+nav li{
+	/* Member 2: Remove the bullet points. */
+	list-style-type: none;
+	/* Member 2: Display the li beside each other but still allows us to add width or height. */
+	display: inline-block;
+}
+
+/* Member 2: Select elements with class “nav” and “nav-logo”: */
+.nav, .nav-logo{
+	/* Member 2: Add a margins on all sides. */
+	margin: 5px;
+	/* Member 2: Add padding on all sides. */
+	padding: 10px;
+}
+
+/* Member 3  */
+
+	#logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#nav-button {
+  background-color: #c2195b;
+}
+#bg-image {
+  background-image: url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+}
+
+	#logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#nav-button {
+  background-color: #c2195b;
+}
+#bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+/*#bg-image {
+  background-image: url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+}*/
+
+#bg-image {
+  background-image: url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  
+}
+
+
+
+/* Member 4 */
+.container {
+    text-align: right;
+    width: 40%;
+    position: relative;
+    left: 50%; 
+}
+
+.title {
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 300; 
+    width: 75%;
+    margin-left: auto;
+    margin-top: 20px; 
+}
+
+#apply-button {
+	margin-top: 1rem;
+	background-color: #c2195b;
+}
+/* Member 5 */
+
+#main {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.title-2 {
+	font-family: 'Zilla Slab', serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.description {
+	margin: 50px 0;
+	font-weight: 150;
+}
+
+#book-button {
+	background-color: #336589;
+}
+
+footer {
+	margin-top: 50px;
+	padding: 100px;
+	text-align: center;
+}
+footer span {
+	margin: 0 10px;
+	font-weight: 300;
+}
